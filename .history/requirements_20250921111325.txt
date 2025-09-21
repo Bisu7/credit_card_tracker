@@ -1,0 +1,36 @@
+# === Build tools (must come first) ===
+pip>=25.2
+setuptools>=68.0.0
+wheel>=0.45.1
+
+# === Web Framework & API ===
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# === Core ML & AI Dependencies ===
+numpy==1.24.4
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+pydantic==2.5.3
+
+# === Document Processing & Parsing ===
+PyPDF2==3.0.1
+python-docx==0.8.11
+beautifulsoup4==4.12.3
+markdown==3.6
+
+# === Export & Report Generation ===
+reportlab==4.2.0
+fpdf2==2.7.9
+
+# === Utilities & System ===
+tqdm==4.66.5
+click==8.1.7
+psutil==5.9.8
+
+# === Development & Testing (optional) ===
+pytest==8.2.2
+pytest-cov==5.0.0
+black==24.4.2
+flake8==7.1.1

@@ -1,0 +1,25 @@
+{
+  "name": "Deep Researcher",
+  "description": "AI-powered research assistant for deep analysis and insights",
+  "repository": "https://github.com/praveen70444/DeepResearch",
+  "logo": "https://via.placeholder.com/150x150/4F46E5/FFFFFF?text=DR",
+  "keywords": ["ai", "research", "fastapi", "machine-learning"],
+  "stack": "heroku-20",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "env": {
+    "PYTHON_VERSION": {
+      "description": "Python version to use",
+      "value": "3.9.18"
+    }
+  }
+}

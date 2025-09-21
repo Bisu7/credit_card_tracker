@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api_server_lite.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "api_server_lite.py"
+    }
+  ],
+  "env": {
+    "PYTHON_VERSION": "3.9"
+  }
+}

@@ -1,0 +1,17 @@
+# Deep Researcher - Memory Optimized Requirements
+# Web Framework & API
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Core dependencies (minimal for deployment)
+pydantic>=2.5.0
+numpy>=1.21.0
+
+# Lightweight ML (optional - will use mock if not available)
+# sentence-transformers>=2.2.0
+# faiss-cpu>=1.7.0
+
+# Basic utilities
+click>=8.1.0
+
