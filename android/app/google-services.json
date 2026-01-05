@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "41820155048",
+    "project_id": "cred-app-aa333",
+    "storage_bucket": "cred-app-aa333.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41820155048:android:db04e4063ce303de21e69d",
+        "android_client_info": {
+          "package_name": "com.example.credit_card_tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9E7ZiUKV0z0SnuiH_IiWlb94jHfn5Row"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
